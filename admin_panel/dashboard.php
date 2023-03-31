@@ -44,19 +44,19 @@
 		<div class="bar">
 			<div class="bar-item">
 				<p>Complete Events</p>
-				<h3>25</h3>
+				<h3>60</h3>
 			</div>
 			<div class="bar-item">
-				<p>Bookings</p>
-				<h3>35</h3>
+				<p>Waiting</p>
+				<h3>16</h3>
 			</div>
 			<div class="bar-item">
-				<p>Total Revenue</p>
-				<h3>3500tk</h3>
+				<p>Paid</p>
+				<h3>43</h3>
 			</div>
 			<div class="bar-item">
-				<p>Pending Events</p>
-				<h3>5</h3>
+				<p>Booked</p>
+				<h3>64</h3>
 			</div>
 		</div>
 	</div>

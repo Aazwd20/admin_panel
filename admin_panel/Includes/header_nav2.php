@@ -5,36 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Boxicons -->
-	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
-	<!-- My CSS -->
-	<link rel="stylesheet" href="style.css">
-    	
 </head>
 <body>
     <!-- SIDEBAR -->
 	<section id="sidebar">
 		<a href="#" class="brand">
-			
-			<span class="text" style = "margin-left: 90px;">Admin</span>
+			<i class='bx bxs-smile'></i>
+			<span class="text">AdminHub</span>
 		</a>
 		<ul class="side-menu top">
 			<li class="active">
-				<a href="index.php">
+				<a href="#">
 					<i class='bx bxs-dashboard' ></i>
 					<span class="text">Dashboard</span>
 				</a>
 			</li>
 			<li>
-				<a href="Complete_event.php">
+				<a href="#">
 					<i class='bx bxs-shopping-bag-alt' ></i>
 					<span class="text">Events</span>
 				</a>
 			</li>
 			<li>
-				<a href="event_status.php">
+				<a href="#">
 					<i class='bx bxs-doughnut-chart' ></i>
-					<span class="text">Analytics</span>
+					<span class="text">Venues</span>
 				</a>
 			</li>
 			<li>
@@ -44,12 +39,14 @@
 				</a>
 			</li>
 			<li>
-				<a href="Register_new.php">
+				<a href="../">
 					<i class='bx bxs-group' ></i>
 					<span class="text">Users</span>
 				</a>
 			</li>
-            <li>
+		</ul>
+		<ul class="side-menu">
+			<li>
 				<a href="#">
 					<i class='bx bxs-cog' ></i>
 					<span class="text">Settings</span>
@@ -61,9 +58,6 @@
 					<span class="text">Logout</span>
 				</a>
 			</li>
-		</ul>
-		<ul class="side-menu">
-			
 		</ul>
 	</section>
 	<!-- SIDEBAR -->
