@@ -10,23 +10,64 @@
 	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 	<!-- My CSS -->
 	<link rel="stylesheet" href="style.css">
+  <style>
+    #box{
+      display: flex;
+    padding-left: 30px;
+    align-content: center;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    overflow: hidden;
+    }
+    table th{    
+      border: 1px solid #dee2e6;
+      color: var(--dark);
+    }
+    #head{
+      color: #fff;
+      background-color: #007bff;
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+    table tr{
+      color: var(--dark);
+    }
+    table td{
+      border: 1px solid #dee2e6;
+      color: var(--dark);
+    }
+    h2{
+      text-align: left;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+      color: var(--dark);
+    }
+  </style>
 </head>
 <body>
+  
+	<?php include 'includes/header_nav.php'; ?>
+
 <div class="container-fluid">
             <div class="row">
-              <div class="col-md-12">
-                <h2>Complete Events</h2>
-                <table class="table">
+            <h2 style="text-align: left; font-size: 40px; ">Completed Events</h2>
+
+              <div class="col-md-12" id="box">
+                <table class="table" >
                   <thead>
                     <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">Event Name</th>
-                      <th scope="col">Date</th>
-                      <th scope="col">Time</th>
-                      <th scope="col">Location</th>
-                      <th scope="col">Tickets Sold</th>
-                      <th scope="col">Revenue</th>
-                      <th scope="col">Actions</th>
+                      <th scope="col" id="head">#</th>
+                      <th scope="col"id="head">Event Name</th>
+                      <th scope="col"id="head">Date</th>
+                      <th scope="col"id="head">Time</th>
+                      <th scope="col"id="head">Location</th>
+                      <th scope="col"id="head">Tickets Sold</th>
+                      <th scope="col"id="head">Revenue</th>
+                      <th scope="col"id="head">Actions</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -74,5 +115,6 @@
               </div>
             </div>
           </div>
+          <script src="script.js"></script>
 </body>
 </html>
