@@ -22,6 +22,7 @@
 			justify-content: space-between;
 			align-items: center;
 			margin-bottom: 30px;
+			
 		}
 		.bar-item {
 			width: calc(25% - 20px);
@@ -37,7 +38,7 @@
 </head>
 <body>
 <div class="container">
-		<h2>Dashboard</h2>
+		<h2 style="text-align: left; font-size: 40px; color: var(--dark);">Dashboard</h2>
 
 		<!-- Bar -->
 		<div class="bar">

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>User Options</title>
+	
 	<style type="text/css">
 		.container {
 			width: 80%;
@@ -9,35 +10,12 @@
 			padding-top: 30px;
 		}
 		h2 {
-			text-align: center;
+			text-align: left;
+			font-size: 40px; 
+			color: var(--dark);
 			margin-bottom: 30px;
 		}
-		form {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			margin-bottom: 30px;
-		}
-		input[type="text"], input[type="email"], input[type="password"] {
-			width: 100%;
-			padding: 10px;
-			margin-bottom: 20px;
-			border-radius: 5px;
-			border: 1px solid #ccc;
-			font-size: 16px;
-			font-family: Arial, sans-serif;
-			box-sizing: border-box;
-		}
-		input[type="submit"] {
-			background-color: #007bff;
-			color: #fff;
-			padding: 10px 20px;
-			border-radius: 5px;
-			border: none;
-			font-size: 16px;
-			font-family: Arial, sans-serif;
-			cursor: pointer;
-		}
+		
 		table {
 			border-collapse: collapse;
 			width: 100%;
@@ -52,22 +30,31 @@
 			background-color: #007bff;
 			color: #fff;
 		}
+		table td{
+			color: var(--dark);
+		}
+		table tr a#edit{
+			border: 6px solid #00a65a;
+			background-color: #00a65a;
+			border-radius: 3px;
+			color: white;
+		}
+		table tr a#delete{
+			border: 6px solid #dd4b39;
+			background-color: #dd4b39;
+			border-radius: 3px;
+			color: white;
+		}
 	</style>
+	
 </head>
 <body>
-    <?php include 'includes/header.php'; ?>
-	<?php include 'includes/navbar.php'; ?>
+	<?php include 'includes/header_nav.php'; ?>
 	<div class="container">
 		<h2>User Options</h2>
 
-		<!-- User Registration Form -->
-		<form action="#" method="POST">
-			<h3>Register New User</h3>
-			<input type="text" name="name" placeholder="Full Name" required>
-			<input type="email" name="email" placeholder="Email" required>
-			<input type="password" name="password" placeholder="Password" required>
-			<input type="submit" value="Register">
-		</form>
+		
+		
 
 		<!-- User List Table -->
 		<table>
@@ -85,7 +72,7 @@
 					<td>John Doe</td>
 					<td>johndoe@example.com</td>
 					<td>
-						<a href="#">Edit</a> | <a href="#">Delete</a>
+						<a href="#" id="edit">Edit</a> | <a href="#" id="delete">Delete</a>
 					</td>
 				</tr>
 				<tr>
@@ -93,11 +80,12 @@
 					<td>Jane Doe</td>
 					<td>janedoe@example.com</td>
 					<td>
-						<a href="#">Edit</a> | <a href="#">Delete</a>
+						<a id="edit" href="#">Edit</a> | <a href="#" id="delete">Delete</a>
 					</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
+	<script src="script.js"></script>
 </body>
 </html>

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <?php include 'includes/header.php'; ?>
-	<?php include 'includes/navbar.php'; ?>
+
 	<title>Settings Options</title>
 	<style type="text/css">
 		.container {

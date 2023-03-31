@@ -16,7 +16,7 @@
 <body>
 <div class="container-fluid">
     <div class="row" style="padding-top:-80px;" >
-      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" style= "background-color: #222d32!important; z-index: 810; font-size: 16px; padding-top: 30px; min-height: 100%; min-width: 230px; position: absolute; z-index: 810; padding-top: 30px; border-end-end-radius: 10px; ">
+      <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse" style= "background-color: #222d32!important; z-index: 810; font-size: 16px; padding-top: 30px; min-height: 93%; min-width: 230px; position: absolute; z-index: 810; padding-top: 30px; border-end-end-radius: 10px; ">
         <div class="sidebar-sticky pt-3">
           <ul class="nav flex-column">
             <li class="nav-item">

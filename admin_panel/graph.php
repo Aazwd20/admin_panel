@@ -10,7 +10,7 @@
 <body>
 
 <div style="width: 75%; margin: 0 auto;">
-		<h2>Completed Events Graph</h2>
+		<h2 style="text-align: left; font-size: 40px; color: var(--dark);">Monthly Sales record</h2>
 		<canvas id="myChart"></canvas>
 	</div>
 
