@@ -27,34 +27,47 @@
 			</li>
 			<li>
 				<a href="Complete_event.php">
-					<i class='bx bxs-shopping-bag-alt' ></i>
-					<span class="text">Events</span>
+					<i class='bx bxs-trophy' ></i>
+					<span class="text">Completed</span>
 				</a>
 			</li>
 			<li>
 				<a href="event_status.php">
-					<i class='bx bxs-doughnut-chart' ></i>
-					<span class="text">Analytics</span>
+					<i class='bx bxs-calendar' ></i>
+					<span class="text">Event Status</span>
 				</a>
 			</li>
 			<li>
-				<a href="#">
-					<i class='bx bxs-message-dots' ></i>
-					<span class="text">Message</span>
+				<a href="event_status2.php">
+					<i class='bx bxs-user-pin' ></i>
+					<span class="text">Event Status</span>
+				</a>
+			</li>
+
+			<li>
+				<a href="venue.php">
+					<i class='bx bxs-building' ></i>
+					<span class="text">Venues</span>
 				</a>
 			</li>
 			<li>
+				<a href="availabe_venue.php">
+					<i class='bx bxs-widget' ></i>
+					<span class="text">Available Venues</span>
+				</a>
+			</li>
+			<!-- <li>
 				<a href="Register_new.php">
 					<i class='bx bxs-group' ></i>
 					<span class="text">Users</span>
 				</a>
-			</li>
-            <li>
+			</li> -->
+            <!-- <li>
 				<a href="#">
 					<i class='bx bxs-cog' ></i>
 					<span class="text">Settings</span>
 				</a>
-			</li>
+			</li> -->
 			<li>
 				<a href="#" class="logout">
 					<i class='bx bxs-log-out-circle' ></i>

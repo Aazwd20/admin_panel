@@ -1,6 +1,5 @@
 button:hover{
-    background-color: wheat;
-    color: black;
-    border: 1px solid wheat;
-    font-weight: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
 }

@@ -27,10 +27,13 @@
     }
     #head{
       color: #fff;
-      background-color: #007bff;
+      background-color: #343a40;
+      /* background-color: #222d32; */
       border: 1px solid #ccc;
       padding: 8px;
       text-align: center;
+      background-color: var(--dark);
+      color: var(--grey);
     }
     table tr{
       color: var(--dark);

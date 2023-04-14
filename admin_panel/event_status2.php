@@ -49,6 +49,24 @@
     padding-top: 30px;
       color: var(--dark);
     }
+    #user_image{
+        height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    }
+    #user{
+    display: flex;
+    align-items: center;
+    
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    height: 75px;
+}
+    table tr td p{
+        padding-left: 11px;
+        padding-top: inherit;
+}
+    
   </style>
 </head>
 <body>
@@ -57,31 +75,27 @@
 
 <div class="container-fluid">
             <div class="row">
-            <h2 style="text-align: left; font-size: 40px; ">Completed Events</h2>
+            <h2 style="text-align: left; font-size: 40px; ">Current Events</h2>
 
               <div class="col-md-12" id="box">
                 <table class="table" >
-                  <thead>
+                <thead>
                     <tr>
                       <th scope="col" id="head">#</th>
-                      <th scope="col"id="head">Event Name</th>
-                      <th scope="col"id="head">Date</th>
-                      <th scope="col"id="head">Time</th>
-                      <th scope="col"id="head">Location</th>
-                      <th scope="col"id="head">Tickets Sold</th>
-                      <th scope="col"id="head">Revenue</th>
-                      <th scope="col"id="head">Actions</th>
+                      <th scope="col" id="head">Bokkers details</th>
+                      <th scope="col" id="head">venus</th>
+                      <th scope="col" id="head">Date</th>
+                      <th scope="col" id="head">Status</th>
+                      <th scope="col" id="head">Action</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <th scope="row">1</th>
-                      <td>Music Festival</td>
-                      <td>October 15, 2023</td>
-                      <td>12:00 PM - 11:00 PM</td>
-                      <td>Central Park</td>
-                      <td>10,000</td>
-                      <td>$100,000</td>
+                      <td id="user"><img src="img/user_1.jpg" alt=""id="user_image"><p>Music Festival</p> </td>
+                      <td>Paris</td>
+                      <td>May 26, 2023 <br> 12:00 PM - 11:00 PM</td>
+                      <td><a href="#" class="btn btn-danger btn-sm">Booked</a></td>
                       <td>
                         <a href="#" class="btn btn-primary btn-sm">Edit</a>
                         <a href="#" class="btn btn-danger btn-sm">Delete</a>
@@ -89,12 +103,10 @@
                     </tr>
                     <tr>
                       <th scope="row">2</th>
-                      <td>Sports Tournament</td>
-                      <td>June 30, 2023</td>
-                      <td>8:00 AM - 5:00 PM</td>
-                      <td>City Stadium</td>
-                      <td>5,000</td>
-                      <td>$50,000</td>
+                      <td id="user"><img src="img/user_2.jpg" alt=""id="user_image"><p>Music Festival</p> </td>
+                      <td>Paris</td>
+                      <td>May 26, 2023 <br> 12:00 PM - 11:00 PM</td>
+                      <td><a href="#" class="btn btn-secondary btn-sm">Waiting</a></td>
                       <td>
                         <a href="#" class="btn btn-primary btn-sm">Edit</a>
                         <a href="#" class="btn btn-danger btn-sm">Delete</a>
@@ -102,12 +114,10 @@
                     </tr>
                     <tr>
                       <th scope="row">3</th>
-                      <td>Tech Conference</td>
-                      <td>May 15-16, 2023</td>
-                      <td>9:00 AM - 6:00 PM</td>
-                      <td>Convention Center</td>
-                      <td>2,500</td>
-                      <td>$25,000</td>
+                      <td id="user"><img src="img/user_3.jpg" alt=""id="user_image"><p>Music Festival</p> </td>
+                      <td>Paris</td>
+                      <td>May 26, 2023 <br> 12:00 PM - 11:00 PM</td>
+                      <td><a href="#" class="btn btn-primary btn-sm">Paid</a></td>
                       <td>
                         <a href="#" class="btn btn-primary btn-sm">Edit</a>
                         <a href="#" class="btn btn-danger btn-sm">Delete</a>

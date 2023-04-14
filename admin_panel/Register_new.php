@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<title>User Options</title>
@@ -88,4 +88,4 @@
 	</div>
 	<script src="script.js"></script>
 </body>
-</html>
+</html> -->
